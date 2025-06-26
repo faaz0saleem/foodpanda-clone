@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #d70f64;
+  --secondary-color: #1d1d1d;
+  --accent-color: #00a5cf;
+  --background-color: #f7f7f7;
+  --text-color: #333333;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-[#d70f64] text-white font-semibold py-2 px-4 rounded-lg hover:bg-[#b30d53] transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-[#d70f64] border border-[#d70f64] font-semibold py-2 px-4 rounded-lg hover:bg-[#fdf2f6] transition-colors duration-200;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#d70f64] focus:border-transparent;
+  }
+
+  .section-title {
+    @apply text-2xl font-bold text-[#1d1d1d] mb-6;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d70f64;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b30d53;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+/* Loading spinner */
+.loading-spinner {
+  @apply w-8 h-8 border-4 border-[#d70f64] border-t-transparent rounded-full animate-spin;
+}
+
+/* Toast notifications */
+.toast {
+  @apply fixed bottom-4 right-4 p-4 rounded-lg shadow-lg text-white;
+}
+
+.toast-success {
+  @apply bg-green-500;
+}
+
+.toast-error {
+  @apply bg-red-500;
+}
