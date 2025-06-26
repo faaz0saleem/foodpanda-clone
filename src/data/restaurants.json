@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Andaaz Restaurant",
+    "cuisine": "Pakistani, BBQ",
+    "rating": 4.5,
+    "deliveryTime": "30-45 min",
+    "minOrder": "Rs. 500",
+    "imageUrl": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg"
+  },
+  {
+    "name": "Spice Bazaar",
+    "cuisine": "Indian, Curry",
+    "rating": 4.3,
+    "deliveryTime": "25-40 min",
+    "minOrder": "Rs. 400",
+    "imageUrl": "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg"
+  },
+  {
+    "name": "Lahore Tikka House",
+    "cuisine": "Pakistani, Grill",
+    "rating": 4.7,
+    "deliveryTime": "35-50 min",
+    "minOrder": "Rs. 600",
+    "imageUrl": "https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg"
+  },
+  {
+    "name": "Royal Kitchen",
+    "cuisine": "Chinese, Asian",
+    "rating": 4.2,
+    "deliveryTime": "40-55 min",
+    "minOrder": "Rs. 450",
+    "imageUrl": "https://images.pexels.com/photos/1435895/pexels-photo-1435895.jpeg"
+  },
+  {
+    "name": "Pizza Point",
+    "cuisine": "Italian, Pizza",
+    "rating": 4.4,
+    "deliveryTime": "30-45 min",
+    "minOrder": "Rs. 700",
+    "imageUrl": "https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg"
+  },
+  {
+    "name": "Burger Lab",
+    "cuisine": "Fast Food, Burgers",
+    "rating": 4.1,
+    "deliveryTime": "25-40 min",
+    "minOrder": "Rs. 350",
+    "imageUrl": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg"
+  },
+  {
+    "name": "Sushi Express",
+    "cuisine": "Japanese, Sushi",
+    "rating": 4.6,
+    "deliveryTime": "40-55 min",
+    "minOrder": "Rs. 800",
+    "imageUrl": "https://images.pexels.com/photos/2098085/pexels-photo-2098085.jpeg"
+  },
+  {
+    "name": "Biryani House",
+    "cuisine": "Pakistani, Rice",
+    "rating": 4.5,
+    "deliveryTime": "35-50 min",
+    "minOrder": "Rs. 450",
+    "imageUrl": "https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg"
+  },
+  {
+    "name": "Thai Spice",
+    "cuisine": "Thai, Asian",
+    "rating": 4.3,
+    "deliveryTime": "45-60 min",
+    "minOrder": "Rs. 600",
+    "imageUrl": "https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg"
+  },
+  {
+    "name": "Mediterranean Grill",
+    "cuisine": "Mediterranean, Grill",
+    "rating": 4.4,
+    "deliveryTime": "40-55 min",
+    "minOrder": "Rs. 550",
+    "imageUrl": "https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg"
+  }
+]
